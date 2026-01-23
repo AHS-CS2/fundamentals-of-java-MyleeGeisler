@@ -1,10 +1,10 @@
 //(c) A+ Computer Science
 //www.apluscompsci.com
 
-//Name -
-//Date -
-//Class -
-//Lab  -
+//Name - Mylee Geisler
+//Date - 1 - 22 - 25
+//Class - Computer Science I
+//Lab  - Draw a box using ascii characters
 
 public class AsciiBox
 {
@@ -12,6 +12,22 @@ public class AsciiBox
 	{
 		System.out.println("name \t  date \n\n" );
 		System.out.println("+++++++++++++++++++++++++ " );
-
+		System.out.println("+++++++++++++++++++++++++ " );
+		System.out.println("+++++++++++++++++++++++++ " );
+		System.out.println("AAAAAAAAAAAAAAAAAAAAAAAAA " );
+		System.out.println("AAAAAAAAAAAAAAAAAAAAAAAAA " );
+		System.out.println("+++++++++++++++++++++++++ " );
+		System.out.println("+++++++++++++++++++++++++ " );
+		System.out.println("+++++++++++++++++++++++++ " );
+		System.out.println("AAAAAAAAAAAAAAAAAAAAAAAAA " );
+		System.out.println("AAAAAAAAAAAAAAAAAAAAAAAAA " );
+		System.out.println("+++++++++++++++++++++++++ " );
+		System.out.println("+++++++++++++++++++++++++ " );
+		System.out.println("+++++++++++++++++++++++++ " );
+		System.out.println("AAAAAAAAAAAAAAAAAAAAAAAAA " );
+		System.out.println("AAAAAAAAAAAAAAAAAAAAAAAAA " );
+		System.out.println("+++++++++++++++++++++++++ " );
+		System.out.println("+++++++++++++++++++++++++ " );
+		System.out.println("+++++++++++++++++++++++++ " );
 	}
 }
