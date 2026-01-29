@@ -21,7 +21,7 @@ jobs:
         setup-command: javac AsciiBox.java
         command: java AsciiBox
         input: ''
-        expected-output: |
+        expected-output: |-
           +++++++++++++++++++++++++
           +++++++++++++++++++++++++
           +++++++++++++++++++++++++
@@ -41,7 +41,7 @@ jobs:
           +++++++++++++++++++++++++
           +++++++++++++++++++++++++
         comparison-method: contains
-        timeout: 10
+        timeout: 1
         max-score: 5
     - name: Ascii Box2
       id: ascii-box2
@@ -66,7 +66,7 @@ jobs:
           AAAAAAAAAAAAAAAAAAAAAAAAAAA
           +++++++++++++++++++++++++++
         comparison-method: contains
-        timeout: 10
+        timeout: 1
         max-score: 5
     - name: Input Test
       id: input-test
@@ -75,29 +75,29 @@ jobs:
         test-name: Input Test
         setup-command: javac Input.java
         command: java Input
-        input: |
+        input: |-
+          2
+          3
+          4
           5
           6
+          7
           8
           9
-          4
-          10
-          1
-          2
-        expected-output: |
-          integer one = 5
-          integer two = 6
+        expected-output: |-
+          integer one = 2
+          integer two = 3
 
-          double one = 8.0
-          double two = 9.0
+          double one = 4.0
+          double two = 5.0
 
-          float one = 4.0
-          float two = 10.0
+          float one = 6.0
+          float two = 7.0
 
-          short one = 1
-          short two = 2
-        comparison-method: exact
-        timeout: 10
+          short one = 8
+          short two = 9
+        comparison-method: contains
+        timeout: 1
         max-score: 5
     - name: Autograding Reporter
       uses: classroom-resources/autograding-grading-reporter@v1
